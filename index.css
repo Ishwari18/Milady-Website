@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto+Mono&display=swap");
+
+@font-face {
+  font-family: Plank;
+  src: url(/fnts/PLANK___.TTF);
+}
+
+nav {
+  background-color: rgb(248, 221, 255);
+  display: flex;
+  padding: 20px;
+  max-height: 100px;
+  width: 100%;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.lg {
+  font-family: Plank;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: rgb(236, 35, 182);
+  overflow: hidden;
+}
+.lg img {
+  width: 120px;
+  position: relative;
+  bottom: 25px;
+}
+button {
+  background-color: rgb(201, 119, 249);
+  font-size: 22px;
+  color: white;
+  font-weight: 100;
+  padding: 0px 24px;
+  border: none;
+  border-radius: 32px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 800;
+  transition: 0.1s;
+}
+button:hover {
+  background-color: rgb(173, 88, 222);
+
+}
+.menu {
+  display: flex;
+  list-style-type: none;
+  font-size: 20px;
+  font-family: "Roboto Mono", monospace;
+  position: relative;
+  top: 10px;
+  font-weight: 400;
+}
+.menu li {
+  margin: 0px 30px;
+  transition: 0.1s;
+}
+.menu li:hover {
+    margin: 0px 30px;
+    font-weight: 800;
+}
+.cntent {
+  position: relative;
+  top: 100px;
+  z-index: +10;
+}
+.first {
+  background-color: rgb(248, 221, 255);
+  /* background-image: url(/images/cutie.jfif); */
+  height: 570px;
+  overflow: hidden;
+  position: static;
+}
+.firsttext {
+    width: 700px;
+    position: relative;
+    bottom: 70px;
+    left: 100px;
+}
+.first p {
+  font-size: 40px;
+  font-family: "Roboto Mono", monospace;
+  width: 400px;
+}
+#first p {
+  position: relative;
+  bottom: 100px;
+}
+#name {
+  font-size: 50px;
+  color: white;
+  font-family: Plank;
+  font-weight: 200;
+  text-shadow: 1000px;
+  z-index: +100;
+}
+
+.second {
+  background-color: rgb(201, 119, 249);
+  width: 100%;
+  height: 1000px;
+  position: relative;
+  bottom: 10px;
+  overflow: hidden;
+}
+.secondimg1{
+  left: 160px;
+  width: 500px;
+  top: 70px;
+  position: relative;
+}
+.secondimg2 {
+    position: relative;
+     bottom: 580px;
+     left: 350px;
+     width: 800px;
+}
+.second p {
+  font-size: 22px;
+  color: white;
+  width: 500px;
+  position: relative;
+  left: 800px;
+  text-align: center;
+  bottom: 280px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 100;
+}
+.second h1  {
+    position: relative;
+    bottom: 600px;
+    font-family: "Roboto Mono", monospace;
+}
+.third {
+  background-color: rgb(255, 198, 253);
+  width: 100%;
+  height: 605px;
+  position: relative;
+  bottom: 10px;
+  overflow-y: hidden;
+}
+.third img {
+  rotate: 90deg;
+  position: relative;
+  height: 1000px;
+  width: 650px;
+  bottom: 220px;
+}
+.menu img {
+  width: 80px;
+  height: 80px;
+  color: white;
+}
