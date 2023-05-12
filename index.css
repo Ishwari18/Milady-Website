@@ -28,21 +28,29 @@ nav {
   position: relative;
   bottom: 30px;
 }
-.first1img {
+.firstimg {
   position: absolute;
-  top: 0%;
-  left: 10%;
+  top: -14%;
+  left: 6%;
+  width: 50%;
 }
-.first2img {
-  width: 800px;
-  position: absolute;
-  top: 4%;
+/* ----------------------------------------------------------------------------- */
+.firststar {
+  width: 300px;
+  z-index: -1000;
+  opacity: 0; /* set the initial opacity to 0 to hide the image */
+  animation-name: star-anim;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-in-out; /* add easing effect to the animation */
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
 }
-.first3img {
-  width: 800px;
-  position: absolute;
+.firststar2 {
+  animation-delay: 1s;
+}
 
-}
+
+
 
 button {
   background-color: rgb(201, 119, 249);
@@ -138,18 +146,19 @@ button:hover {
   width: 1000px;
   rotate: 180deg;
   margin: auto;
-  position: relative;
-  left: 200px;
-  bottom: 140px;
+  position: absolute;
+  left: 14%;
+  top: -15%;
+
 }
 .second p {
   font-size: 20px;
   color: rgb(91, 71, 245);
   width: 600px;
-  position: relative;
-  left: 420px;
+  top: 38%;
+  left: 32%;
+  position: absolute;
   text-align: center;
-  bottom: 760px;
   font-family: "Roboto Mono", monospace;
   font-weight: 100;
 }
@@ -616,8 +625,10 @@ section {
 }
 .Tokenomics {
   width: 500px;
-  position: relative;
-  bottom: 120px;
+  position: absolute;
+  top: -20%;
+  left: 33%;
+  
 }
 .fifth {
   height: 110vh;
@@ -658,7 +669,7 @@ section {
 }
 
 .fire {
-  position: relative;
+  position: absolute;
   bottom: 20px;
   width: 500px;
   position: relative;
@@ -667,4 +678,7 @@ section {
   width: 1000px;
   position: relative;
   bottom: 500px;
+}
+.firefter {
+  position: absolute;
 }
