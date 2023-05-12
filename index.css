@@ -18,7 +18,7 @@ nav {
   justify-content: space-between;
   overflow: hidden;
 }
-#lg{
+#lg {
   position: relative;
   height: 120px;
   width: 120px;
@@ -43,7 +43,6 @@ nav {
   animation-timing-function: ease-in-out; /* add easing effect to the animation */
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
-
 }
 .firstmiladyimg {
   position: absolute;
@@ -53,7 +52,6 @@ nav {
   z-index: +100000;
   max-width: 100%;
   height: auto;
-
 }
 /* ----------------------------------------------------------------------------- */
 .firststar {
@@ -87,9 +85,9 @@ button:hover {
   background-color: rgb(173, 88, 222);
 }
 section {
-    max-width: 100%;
-    height: 100vh;
-  }
+  max-width: 100%;
+  height: 100vh;
+}
 .menu {
   display: flex;
   list-style-type: none;
@@ -119,7 +117,11 @@ section {
   height: 100px;
   width: 800px;
   border-radius: 50%;
-  background-image: linear-gradient(100deg, rgba(244, 189, 221, 0.868), rgba(243, 184, 255, 0.859)) ;
+  background-image: linear-gradient(
+    100deg,
+    rgba(244, 189, 221, 0.868),
+    rgba(243, 184, 255, 0.859)
+  );
   filter: blur(80px);
 }
 .first {
@@ -195,7 +197,6 @@ section {
   color: white;
   max-width: 20%;
   height: auto;
-  
 }
 .third {
   background-color: rgba(218, 105, 246, 0.932);
@@ -251,7 +252,11 @@ section {
   height: 1000px;
   width: 800px;
   border-radius: 50%;
-  background-image: linear-gradient(100deg, rgba(239, 77, 172, 0.754), rgba(205, 74, 231, 0.859)) ;
+  background-image: linear-gradient(
+    100deg,
+    rgba(239, 77, 172, 0.754),
+    rgba(205, 74, 231, 0.859)
+  );
   filter: blur(80px);
   animation: down 10s infinite ease-in-out;
 }
@@ -261,28 +266,34 @@ section {
   height: 1000px;
   width: 800px;
   border-radius: 50%;
-  background-image: linear-gradient(120deg, rgb(232, 98, 227), rgba(243, 152, 202, 0.698)) ;
+  background-image: linear-gradient(
+    120deg,
+    rgb(232, 98, 227),
+    rgba(243, 152, 202, 0.698)
+  );
   filter: blur(80px);
   animation: up 10s infinite ease-in-out;
 }
 @keyframes down {
-  0%, 100% {
-      top: -100px;
-      height: 800px;
-      width: 800px;
+  0%,
+  100% {
+    top: -100px;
+    height: 800px;
+    width: 800px;
   }
   50% {
-      top: 700px;
-      height: 600px;
-      width: 600px;
-  } 
+    top: 700px;
+    height: 600px;
+    width: 600px;
+  }
 }
 @keyframes up {
-  0%, 100% {
-      bottom: -100px;
+  0%,
+  100% {
+    bottom: -100px;
   }
   60% {
-      bottom: 700px;
+    bottom: 700px;
   }
 }
 #left {
@@ -290,33 +301,43 @@ section {
   height: 600px;
   width: 600px;
   border-radius: 50%;
-  background-image: linear-gradient(80deg, rgb(237, 133, 183), rgba(254, 38, 244, 0.698)) ;
+  background-image: linear-gradient(
+    80deg,
+    rgb(237, 133, 183),
+    rgba(254, 38, 244, 0.698)
+  );
   filter: blur(80px);
-  animation: left 10s infinite ease-in-out ;
+  animation: left 10s infinite ease-in-out;
 }
 #right {
   position: absolute;
   height: 600px;
   width: 600px;
   border-radius: 50%;
-  background-image: linear-gradient(80deg, rgb(198, 74, 223), rgba(246, 191, 234, 0.698)) ;
+  background-image: linear-gradient(
+    80deg,
+    rgb(198, 74, 223),
+    rgba(246, 191, 234, 0.698)
+  );
   filter: blur(80px);
-  animation: right 10s infinite  ease-in-out;
+  animation: right 10s infinite ease-in-out;
 }
 @keyframes left {
-  0%, 100% {
-      left: -100px;
+  0%,
+  100% {
+    left: -100px;
   }
   60% {
-      left: 1200px;
+    left: 1200px;
   }
 }
 @keyframes right {
-  0%, 100% {
-      right: -100px;
+  0%,
+  100% {
+    right: -100px;
   }
   60% {
-      right: 1200px;
+    right: 1200px;
   }
 }
 #slant {
@@ -324,18 +345,23 @@ section {
   height: 800px;
   width: 800px;
   border-radius: 50%;
-  background-image: linear-gradient(80deg, rgb(226, 205, 255), rgba(185, 98, 238, 0.374));
-   filter: blur(80px); 
-  animation: slant 10s infinite ;
-} 
+  background-image: linear-gradient(
+    80deg,
+    rgb(226, 205, 255),
+    rgba(185, 98, 238, 0.374)
+  );
+  filter: blur(80px);
+  animation: slant 10s infinite;
+}
 @keyframes slant {
-  0%, 100% {
-      right: -100px;
-      top: -100px;
+  0%,
+  100% {
+    right: -100px;
+    top: -100px;
   }
   60% {
-      right: 1200px;
-      top: 1000px;
+    right: 1200px;
+    top: 1000px;
   }
 }
 #slant1 {
@@ -343,18 +369,23 @@ section {
   height: 800px;
   width: 800px;
   border-radius: 50%;
-  background-image: linear-gradient(80deg, rgb(220, 140, 234), rgba(185, 98, 238, 0.374));
-   filter: blur(80px); 
-  animation: slant1 8s infinite ;
-} 
+  background-image: linear-gradient(
+    80deg,
+    rgb(220, 140, 234),
+    rgba(185, 98, 238, 0.374)
+  );
+  filter: blur(80px);
+  animation: slant1 8s infinite;
+}
 @keyframes slant1 {
-  0%, 100% {
-      left: -100px;
-      top: -100px;
+  0%,
+  100% {
+    left: -100px;
+    top: -100px;
   }
   60% {
-      left: 1200px;
-      top: 1000px;
+    left: 1200px;
+    top: 1000px;
   }
 }
 
@@ -369,7 +400,7 @@ section {
   animation-duration: 3s;
   animation-timing-function: ease-in-out; /* add easing effect to the animation */
   animation-fill-mode: forwards;
-  
+
   animation-iteration-count: infinite;
 }
 
@@ -392,7 +423,7 @@ section {
   position: relative;
   bottom: 1200px;
   z-index: +1000;
-  animation-delay: 1s; 
+  animation-delay: 1s;
 }
 #star3 {
   width: 300px;
@@ -400,56 +431,56 @@ section {
   left: 500px;
   bottom: 1500px;
   z-index: +1000;
-  animation-delay: 0.5s; 
+  animation-delay: 0.5s;
 }
 #star4 {
   width: 300px;
   position: relative;
   bottom: 1200px;
   z-index: +1000;
-  animation-delay: 1s; 
+  animation-delay: 1s;
 }
 #star4 {
   width: 300px;
   position: relative;
   bottom: 1100px;
   z-index: +1000;
-  animation-delay: 2s; 
+  animation-delay: 2s;
 }
 #star5 {
   width: 300px;
   position: relative;
   bottom: 1000px;
   z-index: +1000;
-  animation-delay: -0.3s; 
+  animation-delay: -0.3s;
 }
 #star6 {
   width: 300px;
   position: relative;
   bottom: 1000px;
   z-index: +1000;
-  animation-delay: -0.5s; 
+  animation-delay: -0.5s;
 }
 #star6 {
   width: 300px;
   position: relative;
   bottom: 1000px;
   z-index: +1000;
-  animation-delay:3s; 
+  animation-delay: 3s;
 }
 #star7 {
   width: 300px;
   position: relative;
   bottom: 1000px;
   z-index: +1000;
-  animation-delay:1s; 
+  animation-delay: 1s;
 }
 #star11 {
   width: 300px;
   position: relative;
   bottom: 500px;
   z-index: +1000;
-  animation-delay:1s; 
+  animation-delay: 1s;
 }
 
 #up2 {
@@ -457,7 +488,11 @@ section {
   height: 1000px;
   width: 800px;
   border-radius: 50%;
-  background-image: linear-gradient(100deg, rgba(239, 77, 172, 0.754), rgba(205, 74, 231, 0.859)) ;
+  background-image: linear-gradient(
+    100deg,
+    rgba(239, 77, 172, 0.754),
+    rgba(205, 74, 231, 0.859)
+  );
   filter: blur(80px);
   animation: down2 10s infinite ease-in-out;
 }
@@ -467,28 +502,34 @@ section {
   height: 1000px;
   width: 800px;
   border-radius: 50%;
-  background-image: linear-gradient(120deg, rgb(232, 98, 227), rgba(243, 152, 202, 0.698)) ;
+  background-image: linear-gradient(
+    120deg,
+    rgb(232, 98, 227),
+    rgba(243, 152, 202, 0.698)
+  );
   filter: blur(80px);
   animation: up2 10s infinite ease-in-out;
 }
 @keyframes down2 {
-  0%, 100% {
-      top: -100px;
-      height: 800px;
-      width: 800px;
+  0%,
+  100% {
+    top: -100px;
+    height: 800px;
+    width: 800px;
   }
   50% {
-      top: 700px;
-      height: 600px;
-      width: 600px;
-  } 
+    top: 700px;
+    height: 600px;
+    width: 600px;
+  }
 }
 @keyframes up2 {
-  0%, 100% {
-      bottom: -100px;
+  0%,
+  100% {
+    bottom: -100px;
   }
   60% {
-      bottom: 700px;
+    bottom: 700px;
   }
 }
 #left2 {
@@ -496,33 +537,43 @@ section {
   height: 600px;
   width: 600px;
   border-radius: 50%;
-  background-image: linear-gradient(80deg, rgb(237, 133, 183), rgba(254, 38, 244, 0.698)) ;
+  background-image: linear-gradient(
+    80deg,
+    rgb(237, 133, 183),
+    rgba(254, 38, 244, 0.698)
+  );
   filter: blur(80px);
-  animation: left2 10s infinite ease-in-out ;
+  animation: left2 10s infinite ease-in-out;
 }
 #right2 {
   position: absolute;
   height: 600px;
   width: 600px;
   border-radius: 50%;
-  background-image: linear-gradient(80deg, rgb(198, 74, 223), rgba(246, 191, 234, 0.698)) ;
+  background-image: linear-gradient(
+    80deg,
+    rgb(198, 74, 223),
+    rgba(246, 191, 234, 0.698)
+  );
   filter: blur(80px);
-  animation: right2 10s infinite  ease-in-out;
+  animation: right2 10s infinite ease-in-out;
 }
 @keyframes left2 {
-  0%, 100% {
-      left: -100px;
+  0%,
+  100% {
+    left: -100px;
   }
   60% {
-      left: 1200px;
+    left: 1200px;
   }
 }
 @keyframes right2 {
-  0%, 100% {
-      right: -100px;
+  0%,
+  100% {
+    right: -100px;
   }
   60% {
-      right: 1200px;
+    right: 1200px;
   }
 }
 #slant2 {
@@ -530,18 +581,23 @@ section {
   height: 800px;
   width: 800px;
   border-radius: 50%;
-  background-image: linear-gradient(80deg, rgb(226, 205, 255), rgba(185, 98, 238, 0.374));
-   filter: blur(80px); 
-  animation: slant2 10s infinite ;
-} 
+  background-image: linear-gradient(
+    80deg,
+    rgb(226, 205, 255),
+    rgba(185, 98, 238, 0.374)
+  );
+  filter: blur(80px);
+  animation: slant2 10s infinite;
+}
 @keyframes slant2 {
-  0%, 100% {
-      right: -100px;
-      top: -100px;
+  0%,
+  100% {
+    right: -100px;
+    top: -100px;
   }
   60% {
-      right: 1200px;
-      top: 1000px;
+    right: 1200px;
+    top: 1000px;
   }
 }
 #slant2b {
@@ -549,18 +605,23 @@ section {
   height: 800px;
   width: 800px;
   border-radius: 50%;
-  background-image: linear-gradient(80deg, rgb(220, 140, 234), rgba(185, 98, 238, 0.374));
-   filter: blur(80px); 
-  animation: slant2b 8s infinite ;
-} 
+  background-image: linear-gradient(
+    80deg,
+    rgb(220, 140, 234),
+    rgba(185, 98, 238, 0.374)
+  );
+  filter: blur(80px);
+  animation: slant2b 8s infinite;
+}
 @keyframes slant2b {
-  0%, 100% {
-      left: -100px;
-      top: -100px;
+  0%,
+  100% {
+    left: -100px;
+    top: -100px;
   }
   60% {
-      left: 1200px;
-      top: 1000px;
+    left: 1200px;
+    top: 1000px;
   }
 }
 .heart33img1 {
@@ -576,7 +637,7 @@ section {
   animation-duration: 3s;
   animation-timing-function: ease-in-out; /* add easing effect to the animation */
   animation-fill-mode: forwards;
-  
+
   animation-iteration-count: infinite;
 }
 .heart33img2 {
@@ -591,8 +652,8 @@ section {
   animation-duration: 3s;
   animation-timing-function: ease-in-out; /* add easing effect to the animation */
   animation-fill-mode: forwards;
-  animation-delay: 1s; 
-  
+  animation-delay: 1s;
+
   animation-iteration-count: infinite;
 }
 .heart33img3 {
@@ -607,10 +668,9 @@ section {
   animation-duration: 3s;
   animation-timing-function: ease-in-out; /* add easing effect to the animation */
   animation-fill-mode: forwards;
-  animation-delay: 2s; 
+  animation-delay: 2s;
   animation-iteration-count: infinite;
 }
-
 
 /* ----------------------------------------------------------------------------------------------- */
 .fourth {
@@ -620,7 +680,7 @@ section {
   background-color: rgba(250, 215, 238, 0.7);
   overflow: hidden;
   text-align: center;
-} 
+}
 .inf {
   position: absolute;
   top: 36%;
@@ -660,10 +720,9 @@ section {
   position: absolute;
   top: -20%;
   left: 33%;
-  
 }
 .fifth {
-  height: 100vh;
+  height: 80vh;
   position: relative;
   bottom: 10px;
   background-color: rgba(250, 215, 238, 0.7);
@@ -672,10 +731,9 @@ section {
 
 .pinkmilimgside {
   position: absolute;
-  bottom: 0%;
+  bottom: -26%;
   left: 20%;
   width: 60%;
-
 }
 
 #up5 {
@@ -685,7 +743,7 @@ section {
   top: 80%;
   left: 0;
   border-radius: 30%;
-  background-image: linear-gradient(180deg, #F568AA, #F568AA) ;
+  background-image: linear-gradient(180deg, #f568aa, #f568aa);
   filter: blur(80px);
   animation: down5 10s infinite ease-in-out;
 }
@@ -696,17 +754,27 @@ section {
   height: 1000px;
   width: 2000px;
   border-radius: 30%;
-  background-image: linear-gradient(180deg, #F568AA, #F568AA) ;
+  background-image: linear-gradient(180deg, #f568aa, #f568aa);
   filter: blur(80px);
   animation: up5 10s infinite ease-in-out;
 }
 .footer {
-  background-color: #F568AA;
+  background-color: #f568aa;
   height: 40vh;
   overflow: hidden;
   position: relative;
   bottom: 10px;
-
+}
+.links {
+  display: flex;
+  position: absolute;
+  left: 38%;
+  bottom: 0%;
+}
+.links img {
+  width: 8%;
+  z-index: +1000;
+  margin: 0px 1%;
 }
 .firststarft {
   position: absolute;
@@ -731,7 +799,7 @@ section {
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
 }
-.firststarft3{
+.firststarft3 {
   left: 50%;
   position: absolute;
   width: 300px;
@@ -743,7 +811,7 @@ section {
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
 }
-.firststarft4{
+.firststarft4 {
   left: 75%;
   position: absolute;
   width: 300px;
@@ -784,7 +852,7 @@ section {
   .menu {
     display: none;
   }
-  
+
   #buynow {
     display: block;
     margin-top: 10px;
@@ -807,7 +875,6 @@ section {
     z-index: +100000;
     max-width: 100%;
     height: auto;
-  
   }
   .scndimg1 {
     width: 88%;
@@ -840,7 +907,7 @@ section {
     top: -16%;
   }
   .textbxs {
-    top:0%;
+    top: 0%;
     left: 0%;
     position: absolute;
     align-content: center;
@@ -870,40 +937,100 @@ section {
     position: absolute;
     top: 0%;
     left: 25%;
-    
+  }
+
+  .inf {
+    position: absolute;
+    top: 50%;
+    height: 30%;
+    margin: 15px;
+    border-radius: 200px;
+    width: 88%;
+    left: 5%;
+    background-color: rgba(255, 120, 208, 0.7);
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 1000px;
+    border: 4px rgba(243, 148, 227, 0.465) solid;
+  }
+  .inf p {
+    color: rgb(119, 2, 132);
+    font-size: 10px;
+    padding: 10px;
+    width: 90%;
+    overflow: hidden;
+
+    text-align: center;
+    position: relative;
+    top: 10%;
+    left: 5%;
+  }
+  .fourth p {
+    overflow: hidden;
+  }
+  .heartimg {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    max-width: 40%;
+    height: auto;
+  }
+
+  .fifth {
+    height: 70vh;
+    position: relative;
+    bottom: 10px;
+    background-color: rgba(250, 215, 238, 0.7);
+    overflow: hidden;
+  }
+
+  .pinkmilimgside {
+    position: absolute;
+    bottom: 36%;
+    left: 10%;
+    width: 80%;
+  }
+
+  .footer {
+    background-color: #f568aa;
+    height: 20vh;
+    overflow: hidden;
+    position: relative;
+    bottom: 10px;
+  }
+  .fire {
+    position: absolute;
+    bottom: 80%;
+    width: 100%;
+    position: relative;
+  }
+  .links {
+    display: flex;
+    position: absolute;
+    left: 38%;
+    bottom: 10%;
+  }
+  .links img {
+    width: 8%;
+    z-index: +1000;
+    margin: 0px 1%;
+  }
+  .firststarft {
+    position: absolute;
+    width: 300px;
+    z-index: -1000;
+    opacity: 0; /* set the initial opacity to 0 to hide the image */
+    animation-name: star-anim;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out; /* add easing effect to the animation */
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+  }
+  #lgft {
+    position: absolute;
+    width: 50%;
+    bottom: -100%;
+    z-index: 100;
   }
   
-.inf {
-  position: absolute;
-  top: 50%;
-  height: 30%;
-  margin: 15px;
-  border-radius: 200px;
-  width: 88%;
-  left: 5%;
-  background-color: rgba(255, 120, 208, 0.7);
-  font-size: 20px;
-  text-align: center;
-  box-shadow: 1000px;
-  border: 4px rgba(243, 148, 227, 0.465) solid;
-}
-.inf p {
-  color: rgb(119, 2, 132);
-  font-size: 10px;
-  padding: 10px;
-  width: 90%;
-
-  text-align: center;
-  position: relative;
-  top: 10%;
-  left: 5%;
-}
-.heartimg {
-  position: absolute;
-  top: 20%;
-  left: 30%;
-  max-width: 40%;
-  height: auto;
-}
-
 }
