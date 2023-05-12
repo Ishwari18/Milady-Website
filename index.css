@@ -993,6 +993,19 @@ section {
     background-color: rgba(250, 215, 238, 0.7);
     overflow: hidden;
   }
+  .second p {
+    font-size: 4px;
+    color: rgb(91, 71, 245);
+    width: 58%;
+    top: 40%;
+    left: 20%;
+    margin: auto;
+    position: absolute;
+    text-transform: lowercase;
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 100;
+  }
 
   .pinkmilimgside {
     position: absolute;
