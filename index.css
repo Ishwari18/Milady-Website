@@ -704,4 +704,13 @@ section {
     display: block;
     margin-top: 10px;
   }
+  .firstimg {
+    position: absolute;
+    top: 10%;
+    left: 6%;
+    width: 50%;
+    z-index: +100000;
+    max-width: 100%;
+    height: auto;
+  }
 }
