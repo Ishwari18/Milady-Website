@@ -46,7 +46,6 @@ button {
 }
 button:hover {
   background-color: rgb(173, 88, 222);
-
 }
 .menu {
   display: flex;
@@ -62,8 +61,8 @@ button:hover {
   transition: 0.1s;
 }
 .menu li:hover {
-    margin: 0px 30px;
-    font-weight: 800;
+  margin: 0px 30px;
+  font-weight: 800;
 }
 .cntent {
   position: relative;
@@ -78,10 +77,10 @@ button:hover {
   position: static;
 }
 .firsttext {
-    width: 700px;
-    position: relative;
-    bottom: 70px;
-    left: 100px;
+  width: 700px;
+  position: relative;
+  bottom: 70px;
+  left: 100px;
 }
 .first p {
   font-size: 40px;
@@ -104,56 +103,406 @@ button:hover {
 .second {
   background-color: rgb(201, 119, 249);
   width: 100%;
-  height: 1000px;
+  height: 750px;
   position: relative;
   bottom: 10px;
   overflow: hidden;
 }
-.secondimg1{
-  left: 160px;
-  width: 500px;
-  top: 70px;
+
+.scndimg1 {
+  width: 1000px;
+  rotate: 180deg;
+  margin: auto;
   position: relative;
-}
-.secondimg2 {
-    position: relative;
-     bottom: 580px;
-     left: 350px;
-     width: 800px;
+  left: 200px;
+  bottom: 140px;
 }
 .second p {
-  font-size: 22px;
-  color: white;
-  width: 500px;
+  font-size: 20px;
+  color: rgb(91, 71, 245);
+  width: 600px;
   position: relative;
-  left: 800px;
+  left: 420px;
   text-align: center;
-  bottom: 280px;
+  bottom: 760px;
   font-family: "Roboto Mono", monospace;
   font-weight: 100;
 }
-.second h1  {
-    position: relative;
-    bottom: 600px;
-    font-family: "Roboto Mono", monospace;
-}
-.third {
-  background-color: rgb(255, 198, 253);
-  width: 100%;
-  height: 605px;
+.second h1 {
   position: relative;
-  bottom: 10px;
-  overflow-y: hidden;
+  bottom: 600px;
+  font-family: "Roboto Mono", monospace;
 }
-.third img {
-  rotate: 90deg;
-  position: relative;
-  height: 1000px;
-  width: 650px;
-  bottom: 220px;
-}
+
 .menu img {
   width: 80px;
   height: 80px;
   color: white;
+}
+.third {
+  background-color: rgba(218, 105, 246, 0.932);
+  position: relative;
+  bottom: 10px;
+  overflow-y: hidden;
+  height: 1100px;
+}
+.thirdhead {
+  width: 800px;
+  position: relative;
+  bottom: 340px;
+  left: 350px;
+}
+.textbxs {
+  height: auto;
+  bottom: 560px;
+  position: relative;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+  left: 250px;
+  font-family: "Roboto Mono", monospace;
+  color: rgb(183, 18, 166);
+  text-align: center;
+  padding: 10px;
+}
+.textbx {
+  width: 700px;
+  height: 210px;
+  margin: 15px;
+  border-radius: 170px;
+  width: 60%;
+  background-color: rgba(250, 215, 238, 0.7);
+  font-size: 20px;
+  box-shadow: 1000px;
+  border: 4px rgba(243, 148, 227, 0.465) solid;
+}
+.textbx p {
+  position: relative;
+  top: 20px;
+}
+
+/* _______________________________ */
+
+section {
+  z-index: -10000;
+}
+#up {
+  position: absolute;
+  height: 1000px;
+  width: 800px;
+  border-radius: 50%;
+  background-image: linear-gradient(100deg, rgba(239, 77, 172, 0.754), rgba(205, 74, 231, 0.859)) ;
+  filter: blur(80px);
+  animation: down 10s infinite ease-in-out;
+}
+#down {
+  position: absolute;
+  right: 0;
+  height: 1000px;
+  width: 800px;
+  border-radius: 50%;
+  background-image: linear-gradient(120deg, rgb(232, 98, 227), rgba(243, 152, 202, 0.698)) ;
+  filter: blur(80px);
+  animation: up 10s infinite ease-in-out;
+}
+@keyframes down {
+  0%, 100% {
+      top: -100px;
+      height: 800px;
+      width: 800px;
+  }
+  50% {
+      top: 700px;
+      height: 600px;
+      width: 600px;
+  } 
+}
+@keyframes up {
+  0%, 100% {
+      bottom: -100px;
+  }
+  60% {
+      bottom: 700px;
+  }
+}
+#left {
+  position: absolute;
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  background-image: linear-gradient(80deg, rgb(237, 133, 183), rgba(254, 38, 244, 0.698)) ;
+  filter: blur(80px);
+  animation: left 10s infinite ease-in-out ;
+}
+#right {
+  position: absolute;
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  background-image: linear-gradient(80deg, rgb(198, 74, 223), rgba(246, 191, 234, 0.698)) ;
+  filter: blur(80px);
+  animation: right 10s infinite  ease-in-out;
+}
+@keyframes left {
+  0%, 100% {
+      left: -100px;
+  }
+  60% {
+      left: 1200px;
+  }
+}
+@keyframes right {
+  0%, 100% {
+      right: -100px;
+  }
+  60% {
+      right: 1200px;
+  }
+}
+#slant {
+  position: absolute;
+  height: 800px;
+  width: 800px;
+  border-radius: 50%;
+  background-image: linear-gradient(80deg, rgb(226, 205, 255), rgba(185, 98, 238, 0.374));
+   filter: blur(80px); 
+  animation: slant 10s infinite ;
+} 
+@keyframes slant {
+  0%, 100% {
+      right: -100px;
+      top: -100px;
+  }
+  60% {
+      right: 1200px;
+      top: 1000px;
+  }
+}
+#slant1 {
+  position: absolute;
+  height: 800px;
+  width: 800px;
+  border-radius: 50%;
+  background-image: linear-gradient(80deg, rgb(220, 140, 234), rgba(185, 98, 238, 0.374));
+   filter: blur(80px); 
+  animation: slant1 8s infinite ;
+} 
+@keyframes slant1 {
+  0%, 100% {
+      left: -100px;
+      top: -100px;
+  }
+  60% {
+      left: 1200px;
+      top: 1000px;
+  }
+}
+
+/* ----------------------------------------------------------------------------- */
+.star {
+  width: 300px;
+  position: relative;
+  bottom: 1400px;
+  z-index: +1000;
+  opacity: 0; /* set the initial opacity to 0 to hide the image */
+  animation-name: star-anim;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out; /* add easing effect to the animation */
+  animation-fill-mode: forwards;
+  
+  animation-iteration-count: infinite;
+}
+
+@keyframes star-anim {
+  0% {
+    opacity: 0;
+    transform: scale(1); /* set the initial scale of the image */
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1); /* double the size of the image */
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1); /* further increase the size of the image */
+  }
+}
+#star2 {
+  width: 300px;
+  position: relative;
+  bottom: 1200px;
+  z-index: +1000;
+  animation-delay: 1s; 
+}
+#star3 {
+  width: 300px;
+  position: relative;
+  left: 500px;
+  bottom: 1500px;
+  z-index: +1000;
+  animation-delay: 0.5s; 
+}
+#star4 {
+  width: 300px;
+  position: relative;
+  bottom: 1200px;
+  z-index: +1000;
+  animation-delay: 1s; 
+}
+#star4 {
+  width: 300px;
+  position: relative;
+  bottom: 1100px;
+  z-index: +1000;
+  animation-delay: 2s; 
+}
+#star5 {
+  width: 300px;
+  position: relative;
+  bottom: 1000px;
+  z-index: +1000;
+  animation-delay: -0.3s; 
+}
+#star6 {
+  width: 300px;
+  position: relative;
+  bottom: 1000px;
+  z-index: +1000;
+  animation-delay: -0.5s; 
+}
+#star6 {
+  width: 300px;
+  position: relative;
+  bottom: 1000px;
+  z-index: +1000;
+  animation-delay:3s; 
+}
+#star7 {
+  width: 300px;
+  position: relative;
+  bottom: 1000px;
+  z-index: +1000;
+  animation-delay:1s; 
+}
+#star11 {
+  width: 300px;
+  position: relative;
+  bottom: 500px;
+  z-index: +1000;
+  animation-delay:1s; 
+}
+
+
+#up2 {
+  position: absolute;
+  height: 1000px;
+  width: 800px;
+  border-radius: 50%;
+  background-image: linear-gradient(100deg, rgba(239, 77, 172, 0.754), rgba(205, 74, 231, 0.859)) ;
+  filter: blur(80px);
+  animation: down2 10s infinite ease-in-out;
+}
+#down2 {
+  position: absolute;
+  right: 0;
+  height: 1000px;
+  width: 800px;
+  border-radius: 50%;
+  background-image: linear-gradient(120deg, rgb(232, 98, 227), rgba(243, 152, 202, 0.698)) ;
+  filter: blur(80px);
+  animation: up2 10s infinite ease-in-out;
+}
+@keyframes down2 {
+  0%, 100% {
+      top: -100px;
+      height: 800px;
+      width: 800px;
+  }
+  50% {
+      top: 700px;
+      height: 600px;
+      width: 600px;
+  } 
+}
+@keyframes up2 {
+  0%, 100% {
+      bottom: -100px;
+  }
+  60% {
+      bottom: 700px;
+  }
+}
+#left2 {
+  position: absolute;
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  background-image: linear-gradient(80deg, rgb(237, 133, 183), rgba(254, 38, 244, 0.698)) ;
+  filter: blur(80px);
+  animation: left2 10s infinite ease-in-out ;
+}
+#right2 {
+  position: absolute;
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  background-image: linear-gradient(80deg, rgb(198, 74, 223), rgba(246, 191, 234, 0.698)) ;
+  filter: blur(80px);
+  animation: right2 10s infinite  ease-in-out;
+}
+@keyframes left2 {
+  0%, 100% {
+      left: -100px;
+  }
+  60% {
+      left: 1200px;
+  }
+}
+@keyframes right2 {
+  0%, 100% {
+      right: -100px;
+  }
+  60% {
+      right: 1200px;
+  }
+}
+#slant2 {
+  position: absolute;
+  height: 800px;
+  width: 800px;
+  border-radius: 50%;
+  background-image: linear-gradient(80deg, rgb(226, 205, 255), rgba(185, 98, 238, 0.374));
+   filter: blur(80px); 
+  animation: slant2 10s infinite ;
+} 
+@keyframes slant2 {
+  0%, 100% {
+      right: -100px;
+      top: -100px;
+  }
+  60% {
+      right: 1200px;
+      top: 1000px;
+  }
+}
+#slant2b {
+  position: absolute;
+  height: 800px;
+  width: 800px;
+  border-radius: 50%;
+  background-image: linear-gradient(80deg, rgb(220, 140, 234), rgba(185, 98, 238, 0.374));
+   filter: blur(80px); 
+  animation: slant2b 8s infinite ;
+} 
+@keyframes slant2b {
+  0%, 100% {
+      left: -100px;
+      top: -100px;
+  }
+  60% {
+      left: 1200px;
+      top: 1000px;
+  }
 }
