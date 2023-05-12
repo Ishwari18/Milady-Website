@@ -1007,11 +1007,11 @@ section {
   .links {
     display: flex;
     position: absolute;
-    left: 38%;
+    left: 26%;
     bottom: 10%;
   }
   .links img {
-    width: 8%;
+    width: 20%;
     z-index: +1000;
     margin: 0px 1%;
   }
