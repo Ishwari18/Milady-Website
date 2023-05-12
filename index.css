@@ -227,7 +227,7 @@ section {
   padding: 10px;
 }
 .textbx {
-  width: 700px;
+  width: 70%;
   height: 210px;
   margin: 15px;
   border-radius: 170px;
@@ -236,10 +236,13 @@ section {
   font-size: 20px;
   box-shadow: 1000px;
   border: 4px rgba(243, 148, 227, 0.465) solid;
+  text-align: center;
 }
 .textbx p {
   position: relative;
-  top: 20px;
+  top: 20%;
+  width: 88%;
+  margin: auto;
 }
 
 /* _______________________________ */
@@ -683,6 +686,7 @@ section {
 }
 .inf {
   position: absolute;
+  font-family: "Roboto Mono", monospace;
   top: 36%;
   height: 50%;
   margin: 15px;
@@ -696,13 +700,15 @@ section {
   border: 4px rgba(243, 148, 227, 0.465) solid;
 }
 .inf p {
-  color: rgb(119, 2, 132);
+  color: rgb(255, 250, 255);
   font-size: 20px;
   padding: 10px;
   width: 90%;
   text-align: center;
   position: relative;
-  top: 10%;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  top: 16%;
   left: 5%;
 }
 .heartimg {
@@ -941,6 +947,8 @@ section {
 
   .inf {
     position: absolute;
+    box-shadow: 1000;
+    font-family: "Roboto Mono", monospace;
     top: 50%;
     height: 30%;
     margin: 15px;
@@ -954,12 +962,12 @@ section {
     border: 4px rgba(243, 148, 227, 0.465) solid;
   }
   .inf p {
+    font-family: "Roboto Mono", monospace;
     color: rgb(119, 2, 132);
     font-size: 10px;
     padding: 10px;
     width: 90%;
     overflow: hidden;
-
     text-align: center;
     position: relative;
     top: 10%;
