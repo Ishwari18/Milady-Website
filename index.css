@@ -34,6 +34,17 @@ nav {
   max-width: 100%;
   height: auto;
 }
+.heart44 {
+  width: 300px;
+  z-index: -1000;
+  opacity: 0; /* set the initial opacity to 0 to hide the image */
+  animation-name: star-anim;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-in-out; /* add easing effect to the animation */
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+
+}
 .firstmiladyimg {
   position: absolute;
   bottom: 10%;
@@ -658,6 +669,15 @@ section {
   background-color: rgba(250, 215, 238, 0.7);
   overflow: hidden;
 }
+
+.pinkmilimgside {
+  position: absolute;
+  bottom: 0%;
+  left: 20%;
+  width: 60%;
+
+}
+
 #up5 {
   position: absolute;
   height: 1000px;
@@ -687,6 +707,60 @@ section {
   position: relative;
   bottom: 10px;
 
+}
+.firststarft {
+  position: absolute;
+  width: 300px;
+  z-index: -1000;
+  opacity: 0; /* set the initial opacity to 0 to hide the image */
+  animation-name: star-anim;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out; /* add easing effect to the animation */
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+.firststarft2 {
+  left: 25%;
+  position: absolute;
+  width: 300px;
+  z-index: -1000;
+  opacity: 0; /* set the initial opacity to 0 to hide the image */
+  animation-name: star-anim;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-in-out; /* add easing effect to the animation */
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+.firststarft3{
+  left: 50%;
+  position: absolute;
+  width: 300px;
+  z-index: -1000;
+  opacity: 0; /* set the initial opacity to 0 to hide the image */
+  animation-name: star-anim;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out; /* add easing effect to the animation */
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+.firststarft4{
+  left: 75%;
+  position: absolute;
+  width: 300px;
+  z-index: -1000;
+  opacity: 0; /* set the initial opacity to 0 to hide the image */
+  animation-name: star-anim;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-in-out; /* add easing effect to the animation */
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+#lgft {
+  position: absolute;
+  width: 20%;
+  top: -20%;
+  left: 20%;
 }
 
 .fire {
