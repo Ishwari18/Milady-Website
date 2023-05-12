@@ -28,11 +28,21 @@ nav {
 .firstimg {
   position: absolute;
   bottom: 10%;
-  left: 6%;
+  left: 4%;
   width: 50%;
   z-index: +100000;
   max-width: 100%;
   height: auto;
+}
+.firstmiladyimg {
+  position: absolute;
+  bottom: 10%;
+  right: 8%;
+  width: 40%;
+  z-index: +100000;
+  max-width: 100%;
+  height: auto;
+
 }
 /* ----------------------------------------------------------------------------- */
 .firststar {
@@ -707,12 +717,23 @@ section {
   }
   .firstimg {
     position: absolute;
-    top: 10%;
+    top: 40%;
     left: 25%;
     width: 50%;
     z-index: +100000;
     max-width: 100%;
     height: auto;
+  }
+  .firstmiladyimg {
+    position: absolute;
+    bottom: 10%;
+    right: 15%;
+    top: 10%;
+    width: 70%;
+    z-index: +100000;
+    max-width: 100%;
+    height: auto;
+  
   }
   .scndimg1 {
     width: 88%;
@@ -810,4 +831,5 @@ section {
   max-width: 40%;
   height: auto;
 }
+
 }
