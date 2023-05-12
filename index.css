@@ -178,9 +178,11 @@ section {
   font-size: 20px;
   color: rgb(91, 71, 245);
   width: 600px;
-  top: 38%;
-  left: 32%;
+  top: 35%;
+  left: 30%;
+  margin: auto;
   position: absolute;
+  text-transform: lowercase;
   text-align: center;
   font-family: "Roboto Mono", monospace;
   font-weight: 100;
