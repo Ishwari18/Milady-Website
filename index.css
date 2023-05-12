@@ -5,12 +5,10 @@
   overflow-x: hidden;
 }
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto+Mono&display=swap");
-
 @font-face {
   font-family: Plank;
   src: url(/fnts/PLANK___.TTF);
 }
-
 nav {
   background-color: rgb(248, 221, 255);
   display: flex;
@@ -20,7 +18,6 @@ nav {
   justify-content: space-between;
   overflow: hidden;
 }
-
 #lg{
   position: relative;
   height: 120px;
@@ -33,6 +30,9 @@ nav {
   top: -14%;
   left: 6%;
   width: 50%;
+  z-index: +100000;
+  max-width: 100%;
+  height: auto;
 }
 /* ----------------------------------------------------------------------------- */
 .firststar {
@@ -48,10 +48,6 @@ nav {
 .firststar2 {
   animation-delay: 1s;
 }
-
-
-
-
 button {
   background-color: rgb(201, 119, 249);
   font-size: 22px;
@@ -69,6 +65,10 @@ button {
 button:hover {
   background-color: rgb(173, 88, 222);
 }
+section {
+    max-width: 100%;
+  }
+
 .menu {
   display: flex;
   list-style-type: none;
@@ -149,6 +149,8 @@ button:hover {
   position: absolute;
   left: 14%;
   top: -15%;
+  max-width: 100%;
+  height: auto;
 
 }
 .second p {
@@ -172,6 +174,9 @@ button:hover {
   width: 80px;
   height: 80px;
   color: white;
+  max-width: 20%;
+  height: auto;
+  
 }
 .third {
   background-color: rgba(218, 105, 246, 0.932);
@@ -542,6 +547,8 @@ section {
 .heart33img1 {
   width: 200px;
   position: absolute;
+  max-width: 100%;
+  height: auto;
   top: 18%;
   right: 10%;
   z-index: +100;
@@ -558,6 +565,8 @@ section {
   position: absolute;
   top: 40%;
   left: 10%;
+  max-width: 100%;
+  height: auto;
   opacity: 0; /* set the initial opacity to 0 to hide the image */
   animation-name: star-anim;
   animation-duration: 3s;
@@ -572,6 +581,8 @@ section {
   position: absolute;
   top: 66%;
   right: 10%;
+  max-width: 100%;
+  height: auto;
   opacity: 0; /* set the initial opacity to 0 to hide the image */
   animation-name: star-anim;
   animation-duration: 3s;
@@ -619,6 +630,8 @@ section {
   position: absolute;
   top: 25%;
   right: 10%;
+  max-width: 100%;
+  height: auto;
 }
 .fourth h1 {
   font-size: 100px;
@@ -681,4 +694,14 @@ section {
 }
 .firefter {
   position: absolute;
+}
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+  
+  #buynow {
+    display: block;
+    margin-top: 10px;
+  }
 }
