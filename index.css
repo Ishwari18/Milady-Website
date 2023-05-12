@@ -512,5 +512,96 @@ section {
 /* ----------------------------------------------------------------------------------------------- */
 .fourth {
   height: 100vh;
-  background-color: rgb(200, 40, 214);
+  position: relative;
+  bottom: 10px;
+  background-color: rgba(250, 215, 238, 0.7);
+  overflow: hidden;
+  text-align: center;
+} 
+.inf {
+  position: relative;
+  bottom: 40%;
+  height: 50%;
+  margin: 15px;
+  border-radius: 200px;
+  width: 50%;
+  left: 5%;
+  background-color: rgba(255, 120, 208, 0.7);
+  font-size: 20px;
+  text-align: center;
+  box-shadow: 1000px;
+  border: 4px rgba(243, 148, 227, 0.465) solid;
+}
+.inf p {
+  color: rgb(119, 2, 132);
+  font-size: 20px;
+  padding: 10px;
+  width: 90%;
+  text-align: center;
+  position: relative;
+  top: 10%;
+  left: 5%;
+}
+.heartimg {
+  position: relative;
+  left: 26%;
+  bottom: 100%;
+}
+.fourth h1 {
+  font-size: 100px;
+}
+.Tokenomics {
+  width: 500px;
+  position: relative;
+  bottom: 120px;
+}
+.fifth {
+  height: 110vh;
+  position: relative;
+  bottom: 10px;
+  background-color: rgba(250, 215, 238, 0.7);
+  overflow: hidden;
+
+}
+#up5 {
+  position: absolute;
+  height: 1000px;
+  width: 2000px;
+  top: 80%;
+  left: 0;
+  border-radius: 30%;
+  background-image: linear-gradient(180deg, #F568AA, #F568AA) ;
+  filter: blur(80px);
+  animation: down5 10s infinite ease-in-out;
+}
+#down5 {
+  position: absolute;
+  top: 80%;
+  right: 0;
+  height: 1000px;
+  width: 2000px;
+  border-radius: 30%;
+  background-image: linear-gradient(180deg, #F568AA, #F568AA) ;
+  filter: blur(80px);
+  animation: up5 10s infinite ease-in-out;
+}
+.footer {
+  background-color: #F568AA;
+  height: 40vh;
+  overflow: hidden;
+  position: relative;
+  bottom: 10px;
+
+}
+
+.fire {
+  position: relative;
+  bottom: 20px;
+  width: 500px;
+  position: relative;
+}
+.fkladylg {
+  width: 1000px;
+  position: relative;
+  bottom: 500px;
 }
