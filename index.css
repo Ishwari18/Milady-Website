@@ -27,7 +27,7 @@ nav {
 }
 .firstimg {
   position: absolute;
-  bottom: 10vh;
+  bottom: 10%;
   left: 6%;
   width: 50%;
   z-index: +100000;
