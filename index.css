@@ -739,34 +739,75 @@ section {
     height: 70vh;
   }
   .thirdhead {
-    width: 80%;
+    width: 88%;
     position: absolute;
     left: 8%;
-    top: 0%;
+    top: -16%;
   }
   .textbxs {
-    top: 0%;
+    top:0%;
     left: 0%;
-    height: auto;
     position: absolute;
     align-content: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 80%;
     font-family: "Roboto Mono", monospace;
     color: rgb(183, 18, 166);
     text-align: center;
     padding: 10px;
+    z-index: 5000;
+    height: 88%;
+    align-content: center;
   }
   .textbx {
-    height: auto;
-    margin: 6px;
-    border-radius: 170px;
-    width: 60%;
+    height: 20%;
+    margin: 5% 10%;
+    border-radius: 5%;
+    width: 80%;
     background-color: rgba(250, 215, 238, 0.7);
-    font-size: 20px;
+    font-size: 6px;
     box-shadow: 1000px;
     border: 4px rgba(243, 148, 227, 0.465) solid;
   }
+  .Tokenomics {
+    width: 50%;
+    position: absolute;
+    top: 0%;
+    left: 25%;
+    
+  }
+  
+.inf {
+  position: absolute;
+  top: 50%;
+  height: 30%;
+  margin: 15px;
+  border-radius: 200px;
+  width: 88%;
+  left: 5%;
+  background-color: rgba(255, 120, 208, 0.7);
+  font-size: 20px;
+  text-align: center;
+  box-shadow: 1000px;
+  border: 4px rgba(243, 148, 227, 0.465) solid;
+}
+.inf p {
+  color: rgb(119, 2, 132);
+  font-size: 10px;
+  padding: 10px;
+  width: 90%;
+
+  text-align: center;
+  position: relative;
+  top: 10%;
+  left: 5%;
+}
+.heartimg {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  max-width: 40%;
+  height: auto;
+}
 }
