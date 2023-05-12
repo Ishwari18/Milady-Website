@@ -887,7 +887,7 @@ section {
   .scndimg1 {
     width: 88%;
     top: 4%;
-    left: 3%;
+    margin: auto;
     rotate: 180deg;
     margin: auto;
     position: absolute;
@@ -899,7 +899,7 @@ section {
     color: rgb(91, 71, 245);
     width: 60%;
     top: 36%;
-    left: 20%;
+    margin: auto;
     position: absolute;
     text-align: center;
     font-family: "Roboto Mono", monospace;
